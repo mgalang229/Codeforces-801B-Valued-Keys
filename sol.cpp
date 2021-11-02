@@ -19,7 +19,7 @@ int main() {
 			res += string(1, y[i]);
 		}
 	}
-	// if the resulting string is equal to string 'y', then it is valid string 'z'
+	// if the resulting string is equal to string 'y', then it is a valid string 'z'
 	// otherwise, it is impossible to produce such a string
 	cout << (res == y ? res : "-1") << '\n';
 	return 0;
